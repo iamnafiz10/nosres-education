@@ -32,7 +32,7 @@ function Footer() {
                     <footer>
                         <div className="hidden lg:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             <div className="col">
-                                <h3 className="text-gray-600 font-semibold mt-2 text-[12px]">
+                                <h3 className="text-gray-600 font-semibold mt-2 text-[16px]">
                                     Inscrivez-vous à notre lettre<br/>
                                     éducative :
                                 </h3>
@@ -259,7 +259,7 @@ function Footer() {
                             </details>
                         </div>
 
-                        <div className="mt-12 border-t border-gray-400">
+                        <div className="mt-12 border-t border-[#9999998f]">
 
                         </div>
                         {/* Copyright */}

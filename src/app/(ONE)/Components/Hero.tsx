@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="container">
                     <h1 className="text-2xl md:text-[38px] leading-10 text-white font-bold md:font-medium">
                         L’éducation éclaire les esprits, élève les âmes et<br/>
-                        fait avancer le monde
+                        fait avancer le monde.
                     </h1>
                     <h4 className="mt-4 text-white text-[16px]">
                         L’éducation pour apprendre, penser, créer.

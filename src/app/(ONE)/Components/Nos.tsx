@@ -50,7 +50,7 @@ function Nos() {
                                         <h3 className="font-semibold text-[16px]">
                                             Lire le monde
                                         </h3>
-                                        <h4 className="text-[12px] mt-2">
+                                        <h4 className="text-[14px] mt-2">
                                             Une collection de livres jeunesse
                                             qui invite les enfants à explorer
                                             les enjeux sociaux contemporains
@@ -74,7 +74,7 @@ function Nos() {
                                         <h3 className="font-semibold text-[16px]">
                                             Kit pédagogique libre
                                         </h3>
-                                        <h4 className="text-[12px] mt-2">
+                                        <h4 className="text-[14px] mt-2">
                                             Un ensemble de ressources
                                             gratuites et modulables conçu
                                             pour les écoles primaires rurales,
@@ -99,7 +99,7 @@ function Nos() {
                                         <h3 className="font-semibold text-[16px]">
                                             Formations enseignants
                                         </h3>
-                                        <h4 className="text-[12px] mt-2">
+                                        <h4 className="text-[14px] mt-2">
                                             Des ateliers pratiques sur la
                                             pédagogie par projet, pour
                                             encourager la créativité, la
@@ -124,7 +124,7 @@ function Nos() {
                                         <h3 className="font-semibold text-[16px]">
                                             Recherche-action
                                         </h3>
-                                        <h4 className="text-[12px] mt-2">
+                                        <h4 className="text-[14px] mt-2">
                                             Une étude de terrain
                                             participative sur l’éducation
                                             inclusive dans les zones
@@ -150,7 +150,7 @@ function Nos() {
                                         <h3 className="font-semibold text-[16px]">
                                             Lire le monde
                                         </h3>
-                                        <h4 className="text-[12px] mt-2">
+                                        <h4 className="text-[14px] mt-2">
                                             Une collection de livres jeunesse
                                             qui invite les enfants à explorer
                                             les enjeux sociaux contemporains

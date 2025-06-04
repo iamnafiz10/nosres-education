@@ -39,7 +39,7 @@ function Notre() {
                                     </h4>
                                 </div>
 
-                                <div className="content z-50 bg-[#b9bdbf5c] mt-8 p-4 text-white rounded-xl">
+                                <div className="content z-20 bg-[#b9bdbf5c] mt-8 p-4 text-white rounded-xl">
                                     <h4 className="text-[18px]">Nos ressources et programmes sont conçus pour :</h4>
                                     <div className="flex items-center gap-2 mt-4">
                                         <div className="icon">
