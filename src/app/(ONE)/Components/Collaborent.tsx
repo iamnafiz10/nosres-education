@@ -10,7 +10,7 @@ function Collaborent() {
     return (
         <>
             <section id="collaborent-section" className="bg-[#F4F4F4] mt-8">
-                <div className="container pt-16">
+                <div className="container py-16">
                     <div className="head-wrap text-center">
                         <h1 className="font-semibold text-[24px]">
                             Ils collaborent avec nous

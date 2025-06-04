@@ -6,6 +6,7 @@ import Offrir from "@/app/(ONE)/Components/Offrir";
 import Notre from "@/app/(ONE)/Components/Notre";
 import Nos from "@/app/(ONE)/Components/Nos";
 import Collaborent from "@/app/(ONE)/Components/Collaborent";
+import Les from "@/app/(ONE)/Components/Les";
 
 function Page() {
     return (
@@ -17,6 +18,7 @@ function Page() {
             <Parcours/>
             <Nos/>
             <Collaborent/>
+            <Les/>
         </>
     );
 }
