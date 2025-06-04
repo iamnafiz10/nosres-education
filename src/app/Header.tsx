@@ -78,8 +78,12 @@ function Header() {
                                                            className="w-8"
                                                            alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="flex items-center gap-1 text-[#252C32] font-[500] text-[14px]">
                                                             Primaire
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Apprendre comment nous contribuons dans
@@ -96,8 +100,12 @@ function Header() {
                                                            className="w-8"
                                                            alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="flex items-center gap-1 text-[#252C32] font-[500] text-[14px]">
                                                             Secondaire
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Comprendre comment nous soutenons les
@@ -112,8 +120,12 @@ function Header() {
                                                 <div className="flex items-center gap-3">
                                                     <Image src={WhoImg4} className="w-8" alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="flex items-center gap-1 text-[#252C32] font-[500] text-[14px]">
                                                             Supérieur
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Explorer comment nous accompagnons
@@ -182,8 +194,12 @@ function Header() {
                                                            className="w-8"
                                                            alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="flex items-center gap-1 text-[#252C32] font-[500] text-[14px]">
                                                             Link 3
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Découvrir comment Nosres Books enrichit
@@ -198,8 +214,12 @@ function Header() {
                                                 <div className="flex items-center gap-3">
                                                     <Image src={WhoImg4} className="w-8" alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="flex items-center gap-1 text-[#252C32] font-[500] text-[14px]">
                                                             Link 3
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Découvrir comment Nosres Books enrichit
@@ -249,15 +269,33 @@ function Header() {
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Primaire</Link>
+                                    <Link href='/' className="flex items-center gap-1">
+                                        Primaire
+                                        <span
+                                            className="text-[8px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Secondaire</Link>
+                                    <Link href='/public' className="flex items-center gap-1">
+                                        Secondaire
+                                        <span
+                                            className="text-[8px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Supérieur</Link>
+                                    <Link href='/public' className="flex items-center gap-1">
+                                        Supérieur
+                                        <span
+                                            className="text-[8px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
                             </ul>
                         </details>
@@ -279,11 +317,23 @@ function Header() {
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Link 3</Link>
+                                    <Link href='/public' className="flex items-center gap-1">
+                                        Link 3
+                                        <span
+                                            className="text-[8px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Link 3</Link>
+                                    <Link href='/public' className="flex items-center gap-1">
+                                        Link 3
+                                        <span
+                                            className="text-[8px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
                             </ul>
                         </details>

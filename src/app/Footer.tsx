@@ -32,14 +32,14 @@ function Footer() {
                     <footer>
                         <div className="hidden lg:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             <div className="col">
-                                <div className="logo">
-                                    <Link href='/' className="flex items-center gap-2">
-                                        <Image width={1000} height={500} src="/assets/images/logo.svg"
-                                               className="h-10 w-7"
-                                               alt="LogoImg"/>
-                                        <span className="font-[500] text-xl">nosres</span>
-                                    </Link>
-                                </div>
+                                <h3 className="text-gray-600 font-semibold mt-2 text-[12px]">
+                                    Inscrivez-vous à notre lettre<br/>
+                                    éducative :
+                                </h3>
+                                <p className="mt-1 text-gray-500 text-[12px]">
+                                    Un email par mois pour suivre nos projets, découvrir
+                                    nos ressources et rejoindre la communauté Nosres.
+                                </p>
                                 <div className="social-icons mt-6 flex items-center gap-3">
                                     <FaFacebookF size={15}
                                                  className="text-[#525252] hover:text-primary transition cursor-pointer"/>
@@ -50,26 +50,18 @@ function Footer() {
                                     <FaXTwitter size={15}
                                                 className="text-[#525252] hover:text-primary transition cursor-pointer"/>
                                 </div>
-                                <h3 className="mt-8 text-gray-600 font-semibold">
-                                    Inscrivez-vous à notre lettre
-                                    éducative :
-                                </h3>
-                                <p className="mt-1 text-gray-500 text-[12px]">
-                                    Un email par mois pour suivre nos projets, découvrir
-                                    nos ressources et rejoindre la communauté Nosres.
-                                </p>
-                                <div
-                                    className="mt-3 flex cursor-pointer items-center gap-1 justify-start text-primary hover:text-[#3A5F8A]">
-                                    <HiOutlineArrowRightCircle size={30}/>
-                                    <Link href='/'
-                                          className="text-[14px]">
-                                        Subscribe
-                                    </Link>
+
+                                <div className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
+                                    <input type="text" className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2" placeholder="Entrez votre adresse e-mail"/>
+                                    <button type='button' className="text-[12px] bg-primary text-white py-2 px-4 rounded rounded-l-none">
+                                        S’abonner
+                                    </button>
                                 </div>
+
                             </div>
 
                             <div className="col mt-3">
-                                <h3 className="font-semibold text-gray-600">
+                                <h3 className="font-semibold text-gray-600 text-[12px]">
                                     Nosres Education
                                 </h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
@@ -86,31 +78,63 @@ function Footer() {
                             </div>
 
                             <div className="col mt-3">
-                                <h3 className="font-semibold text-gray-600">Parcours éducatif</h3>
+                                <h3 className="font-semibold text-gray-600 text-[12px]">Parcours éducatif</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Maternelle</Link>
+                                        <Link href='/'>
+                                            Maternelle
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Primaire</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Primaire
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Secondaire</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Secondaire
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Supérieur</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Supérieur
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
 
                             <div className="col mt-3">
-                                <h3 className="font-semibold text-gray-600">Nos piliers</h3>
+                                <h3 className="font-semibold text-gray-600 text-[12px]">Nos piliers</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Nosres Books</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Nosres Books
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Nosres laboratoire éducatif</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Nosres laboratoire éducatif
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
                                         <Link href='/'>Link 3</Link>
@@ -158,7 +182,7 @@ function Footer() {
                                     <HiOutlineArrowRightCircle size={30}/>
                                     <Link href='/'
                                           className="text-[14px]">
-                                        Subscribe
+                                        Subscribe 5
                                     </Link>
                                 </div>
                             </div>
@@ -195,7 +219,9 @@ function Footer() {
                                         <Link href='/'>Maternelle</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Primaire</Link>
+                                        <Link href='/'>
+                                            Primaire8
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
                                         <Link href='/'>Secondaire</Link>
@@ -233,8 +259,11 @@ function Footer() {
                             </details>
                         </div>
 
+                        <div className="mt-12 border-t border-gray-400">
+
+                        </div>
                         {/* Copyright */}
-                        <div className="copyright sm:flex  justify-between pt-4 mt-10">
+                        <div className="copyright sm:flex justify-between mt-4">
                             <div className="left">
                                 <ul className="block space-y-3 md:space-y-0 md:flex items-center gap-4 text-gray-500 text-[12px]">
                                     <div className="logo">
@@ -264,7 +293,7 @@ function Footer() {
                                 <p className="mt-1 text-gray-500 text-[12px]">© {currentYear} Nosres Inc. All rights
                                     reserved.</p>
                             </div>
-                            <div className="right">
+                            <div className="right mt-[10px]">
                                 <p className="cursor-pointer text-[12px] text-graycolor">United States</p>
                             </div>
                         </div>

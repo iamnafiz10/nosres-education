@@ -10,7 +10,7 @@ function Rendre() {
                             Rendre une éducation de qualité accessible<br/>
                             à toutes et à tous.
                         </h1>
-                        <p className="mt-3 text-[#ABABAB] text-[16px]">Not
+                        <h4 className="mt-3 text-prgcolor text-[16px]">Not
                             Chez Nosres, nous croyons que l’éducation change tout. Elle réduit les inégalités, ouvre les
                             esprits et bâtit<br/>
                             un monde plus juste. C’est pourquoi nous concevons des ressources pédagogiques
@@ -20,7 +20,7 @@ function Rendre() {
                             d’apprentissage — à l’école comme au-delà. Parce que chaque élève, où qu’il soit, mérite les
                             moyens de<br/>
                             révéler son potentiel.
-                        </p>
+                        </h4>
                     </div>
                 </div>
             </section>

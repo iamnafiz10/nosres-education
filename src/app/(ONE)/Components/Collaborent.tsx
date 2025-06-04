@@ -56,37 +56,37 @@ function Collaborent() {
                         >
                             <SwiperSlide>
                                 <div className="cursor-pointer">
-                                    <Image src={SliderOne} className="w-full h-[60px] rounded-md rounded-b-none"
+                                    <Image src={SliderOne} className="w-[70%] h-full rounded-md rounded-b-none"
                                            alt="SliderOne"/>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer">
-                                    <Image src={SliderOne} className="w-full h-[60px] rounded-md rounded-b-none"
+                                    <Image src={SliderOne} className="w-[70%] h-full rounded-md rounded-b-none"
                                            alt="SliderOne"/>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer">
-                                    <Image src={SliderOne} className="w-full h-[60px] rounded-md rounded-b-none"
+                                    <Image src={SliderOne} className="w-[70%] h-full rounded-md rounded-b-none"
                                            alt="SliderOne"/>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer">
-                                    <Image src={SliderOne} className="w-full h-[60px] rounded-md rounded-b-none"
+                                    <Image src={SliderOne} className="w-[70%] h-full rounded-md rounded-b-none"
                                            alt="SliderOne"/>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer">
-                                    <Image src={SliderOne} className="w-full h-[60px] rounded-md rounded-b-none"
+                                    <Image src={SliderOne} className="w-[70%] h-full rounded-md rounded-b-none"
                                            alt="SliderOne"/>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer">
-                                    <Image src={SliderOne} className="w-full h-[60px] rounded-md rounded-b-none"
+                                    <Image src={SliderOne} className="w-[70%] h-full rounded-md rounded-b-none"
                                            alt="SliderOne"/>
                                 </div>
                             </SwiperSlide>

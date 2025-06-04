@@ -18,7 +18,7 @@ function Les() {
                         <div className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
-                                <Image src={SliderOne} className="w-full h-44 rounded-xl"
+                                <Image src={SliderOne} className="w-full h-32 rounded-xl"
                                        alt="SliderOne"/>
                                 <div className="content">
                                     <h4 className="text-[14px] mt-2">
@@ -44,7 +44,7 @@ function Les() {
                         <div className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
-                                <Image src={SliderOne} className="w-full h-44 rounded-xl"
+                                <Image src={SliderOne} className="w-full h-32 rounded-xl"
                                        alt="SliderOne"/>
                                 <div className="content">
                                     <h4 className="text-[14px] mt-2">
@@ -70,7 +70,7 @@ function Les() {
                         <div className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
-                                <Image src={SliderOne} className="w-full h-44 rounded-xl"
+                                <Image src={SliderOne} className="w-full h-32 rounded-xl"
                                        alt="SliderOne"/>
                                 <div className="content">
                                     <h4 className="text-[14px] mt-2">
@@ -96,7 +96,7 @@ function Les() {
                         <div className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
-                                <Image src={SliderOne} className="w-full h-44 rounded-xl"
+                                <Image src={SliderOne} className="w-full h-32 rounded-xl"
                                        alt="SliderOne"/>
                                 <div className="content">
                                     <h4 className="text-[14px] mt-2">
@@ -122,7 +122,7 @@ function Les() {
                         <div className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
-                                <Image src={SliderOne} className="w-full h-44 rounded-xl"
+                                <Image src={SliderOne} className="w-full h-32 rounded-xl"
                                        alt="SliderOne"/>
                                 <div className="content">
                                     <h4 className="text-[14px] mt-2">
@@ -148,7 +148,7 @@ function Les() {
                         <div className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
-                                <Image src={SliderOne} className="w-full h-44 rounded-xl"
+                                <Image src={SliderOne} className="w-full h-32 rounded-xl"
                                        alt="SliderOne"/>
                                 <div className="content">
                                     <h4 className="text-[14px] mt-2">

@@ -13,7 +13,8 @@
     --color-primary: #4D7FB8;
     --color-prgcolor: #39393b;
     --color-graycolor: #828D9E;
-    --color-bordercolor: #a1a1a1db;
+    --color-bordercolor: #e5e7eb;
+    /*--color-bordercolor: #a1a1a1db;*/
 }
 
 @utility container {
@@ -50,4 +51,46 @@ body {
 /*---------------------- My CSS ----------------------------*/
 .future-section {
     background-image: linear-gradient(90deg, rgba(206, 216, 226, .7) 0, hsla(45, 7%, 89%, .9));
+}
+
+/* Prev */
+.swiper-button-prev {
+    background: #ffffff;
+    border-radius: 100%;
+    width: 35px !important;
+    height: 35px !important;
+    top: 39% !important;
+    opacity: 50%;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    font-size: 20px !important;
+    color: #4D7FB8;
+    margin-top: 1px !important;
+}
+
+/* Next */
+.swiper-button-next {
+    background: white;
+    opacity: 50%;
+    border-radius: 100%;
+    width: 35px !important;
+    height: 35px !important;
+    top: 39% !important;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    font-size: 20px !important;
+    color: #4D7FB8;
+    margin-top: 1px !important;
+}
+
+/* Pagination */
+.swiper {
+    padding-bottom: 40px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
 }
