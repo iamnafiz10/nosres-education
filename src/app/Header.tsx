@@ -245,27 +245,19 @@ function Header() {
                             </summary>
                             <ul className="mt-4 space-y-4">
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>About Nosres</Link>
+                                    <Link href='/public'>Maternelle</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Newsroom</Link>
+                                    <Link href='/public'>Primaire</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Careers</Link>
+                                    <Link href='/public'>Secondaire</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Investors</Link>
-                                </li>
-
-                                <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Brand Resources</Link>
-                                </li>
-
-                                <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Contact Us</Link>
+                                    <Link href='/public'>Supérieur</Link>
                                 </li>
                             </ul>
                         </details>
@@ -279,19 +271,19 @@ function Header() {
                             </summary>
                             <ul className="mt-4 space-y-4">
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Marketplace</Link>
+                                    <Link href='/public'>Nosres Books</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Pay</Link>
+                                    <Link href='/public'>Nosres laboratoire créatif</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Logistics</Link>
+                                    <Link href='/public'>Link 3</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Telecom</Link>
+                                    <Link href='/public'>Link 3</Link>
                                 </li>
                             </ul>
                         </details>
