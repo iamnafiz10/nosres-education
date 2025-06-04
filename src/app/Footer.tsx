@@ -5,7 +5,6 @@ import {IoLogoInstagram} from "react-icons/io5";
 import {FaLinkedin} from "react-icons/fa";
 import {FaXTwitter} from "react-icons/fa6";
 import {RxCross1, RxPlus} from "react-icons/rx";
-import {HiOutlineArrowRightCircle} from "react-icons/hi2";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -53,7 +52,7 @@ function Footer() {
 
                                 <div className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
                                     <input type="text" className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2" placeholder="Entrez votre adresse e-mail"/>
-                                    <button type='button' className="text-[12px] bg-primary text-white py-2 px-4 rounded rounded-l-none">
+                                    <button type='button' className="text-[12px] cursor-pointer bg-primary text-white py-2 px-4 rounded rounded-l-none">
                                         S’abonner
                                     </button>
                                 </div>
@@ -160,6 +159,19 @@ function Footer() {
                                         <span className="font-[500] text-xl">nosres</span>
                                     </Link>
                                 </div>
+                                <h3 className="mt-4 text-gray-600 font-semibold">
+                                    Inscrivez-vous à notre lettre
+                                    éducative :</h3>
+                                <p className="mt-1 text-gray-500 text-[12px]">
+                                    Un email par mois pour suivre nos projets, découvrir
+                                    nos ressources et rejoindre la communauté Nosres.
+                                </p>
+                                <div className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
+                                    <input type="text" className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2" placeholder="Entrez votre adresse e-mail"/>
+                                    <button type='button' className="text-[12px] cursor-pointer bg-primary text-white py-2 px-4 rounded rounded-l-none">
+                                        S’abonner
+                                    </button>
+                                </div>
                                 <div className="social-icons mt-6 flex items-center gap-3">
                                     <FaFacebookF size={15}
                                                  className="text-[#525252] hover:text-primary transition cursor-pointer"/>
@@ -169,21 +181,6 @@ function Footer() {
                                                 className="text-[#525252] hover:text-primary transition cursor-pointer"/>
                                     <FaXTwitter size={15}
                                                 className="text-[#525252] hover:text-primary transition cursor-pointer"/>
-                                </div>
-                                <h3 className="mt-8 text-gray-600 font-semibold">
-                                    Inscrivez-vous à notre lettre
-                                    éducative :</h3>
-                                <p className="mt-1 text-gray-500 text-[12px]">
-                                    Un email par mois pour suivre nos projets, découvrir
-                                    nos ressources et rejoindre la communauté Nosres.
-                                </p>
-                                <div
-                                    className="lg:hidden mt-3 flex cursor-pointer items-center gap-1 justify-start text-primary hover:text-[#3A5F8A]">
-                                    <HiOutlineArrowRightCircle size={30}/>
-                                    <Link href='/'
-                                          className="text-[14px]">
-                                        Subscribe 5
-                                    </Link>
                                 </div>
                             </div>
 
