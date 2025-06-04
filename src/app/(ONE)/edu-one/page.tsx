@@ -4,6 +4,8 @@ import Rendre from "@/app/(ONE)/Components/Rendre";
 import Parcours from "@/app/(ONE)/Components/Parcours";
 import Offrir from "@/app/(ONE)/Components/Offrir";
 import Notre from "@/app/(ONE)/Components/Notre";
+import Nos from "@/app/(ONE)/Components/Nos";
+import Collaborent from "@/app/(ONE)/Components/Collaborent";
 
 function Page() {
     return (
@@ -13,6 +15,8 @@ function Page() {
             <Offrir/>
             <Notre/>
             <Parcours/>
+            <Nos/>
+            <Collaborent/>
         </>
     );
 }
