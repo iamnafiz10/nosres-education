@@ -94,3 +94,31 @@ body {
     width: 10px !important;
     height: 10px !important;
 }
+
+/* Copyright */
+.copyright {
+    border-top: .5px solid #9999998f;
+}
+
+/*------------ Modal ---------------*/
+#modal_content_wrap button svg {
+    cursor: pointer !important;
+}
+
+#modal_content_wrap .max-w-lg {
+    border-radius: 10px !important;
+}
+
+.rounded-lg .border-b {
+    align-items: center !important;
+    border-color: #e5e7eb !important;
+}
+
+.rounded-lg button {
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+.rounded-lg button:hover {
+    background: rgba(78, 74, 74, 0.54) !important;
+}

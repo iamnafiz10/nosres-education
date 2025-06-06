@@ -57,7 +57,7 @@ function Nos() {
                                             avec curiosité et empathie.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -82,7 +82,7 @@ function Nos() {
                                             enseignants.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -107,7 +107,7 @@ function Nos() {
                                             actif en classe.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -133,7 +133,7 @@ function Nos() {
                                             En savoir plus {`>`} chercheurs.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -157,7 +157,7 @@ function Nos() {
                                             avec curiosité et empathie.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>

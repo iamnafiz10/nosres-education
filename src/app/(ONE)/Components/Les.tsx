@@ -32,7 +32,7 @@ function Les() {
                                         May 29, 2025
                                     </h4>
                                     <button type='button'
-                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                         Lire l’histoire
                                         <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -58,7 +58,7 @@ function Les() {
                                         May 29, 2025
                                     </h4>
                                     <button type='button'
-                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                         Lire l’histoire
                                         <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -84,7 +84,7 @@ function Les() {
                                         May 29, 2025
                                     </h4>
                                     <button type='button'
-                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                         Lire l’histoire
                                         <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -110,7 +110,7 @@ function Les() {
                                         May 29, 2025
                                     </h4>
                                     <button type='button'
-                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                         Lire l’histoire
                                         <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -136,7 +136,7 @@ function Les() {
                                         May 29, 2025
                                     </h4>
                                     <button type='button'
-                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                         Lire l’histoire
                                         <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -162,7 +162,7 @@ function Les() {
                                         May 29, 2025
                                     </h4>
                                     <button type='button'
-                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                            className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                         Lire l’histoire
                                         <span className="icon">
                                                 <IoIosArrowForward size={15}/>

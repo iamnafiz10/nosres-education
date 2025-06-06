@@ -75,7 +75,7 @@ function Parcours() {
                                             l’observation et la découverte.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -104,7 +104,7 @@ function Parcours() {
                                             confiance et leur créativité.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -133,7 +133,7 @@ function Parcours() {
                                             ancrée dans les enjeux du monde actuel.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>
@@ -163,7 +163,7 @@ function Parcours() {
                                             transformation.
                                         </h4>
                                         <button type='button'
-                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-black">
+                                                className="mt-2 flex items-center gap-1 cursor-pointer text-[14px] text-primary hover:text-primary hover:underline">
                                             En savoir plus
                                             <span className="icon">
                                                 <IoIosArrowForward size={15}/>

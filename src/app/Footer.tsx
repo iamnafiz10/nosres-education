@@ -50,9 +50,13 @@ function Footer() {
                                                 className="text-[#525252] hover:text-primary transition cursor-pointer"/>
                                 </div>
 
-                                <div className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
-                                    <input type="text" className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2" placeholder="Entrez votre adresse e-mail"/>
-                                    <button type='button' className="text-[12px] cursor-pointer bg-primary text-white py-2 px-4 rounded rounded-l-none">
+                                <div
+                                    className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
+                                    <input type="text"
+                                           className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2"
+                                           placeholder="Entrez votre adresse e-mail"/>
+                                    <button type='button'
+                                            className="text-[12px] cursor-pointer bg-primary text-white py-2 px-4 rounded rounded-l-none">
                                         S’abonner
                                     </button>
                                 </div>
@@ -166,9 +170,13 @@ function Footer() {
                                     Un email par mois pour suivre nos projets, découvrir
                                     nos ressources et rejoindre la communauté Nosres.
                                 </p>
-                                <div className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
-                                    <input type="text" className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2" placeholder="Entrez votre adresse e-mail"/>
-                                    <button type='button' className="text-[12px] cursor-pointer bg-primary text-white py-2 px-4 rounded rounded-l-none">
+                                <div
+                                    className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
+                                    <input type="text"
+                                           className="outline-0 text-[12px] text-black border border-bordercolor rounded rounded-r-none border-r-0 px-4 py-2"
+                                           placeholder="Entrez votre adresse e-mail"/>
+                                    <button type='button'
+                                            className="text-[12px] cursor-pointer bg-primary text-white py-2 px-4 rounded rounded-l-none">
                                         S’abonner
                                     </button>
                                 </div>
@@ -256,17 +264,17 @@ function Footer() {
                             </details>
                         </div>
 
-                        <div className="mt-12 border-t border-[#9999998f]">
+                        {/*<div className="mt-12 border-t border-[#9999998f]">*/}
 
-                        </div>
+                        {/*</div>*/}
                         {/* Copyright */}
-                        <div className="copyright sm:flex justify-between mt-4">
+                        <div className="copyright sm:flex justify-between pt-4 mt-10">
                             <div className="left">
-                                <ul className="block space-y-3 md:space-y-0 md:flex items-center gap-4 text-gray-500 text-[12px]">
+                                <ul className="block space-y-2 md:space-y-0 md:flex items-center gap-4 text-gray-500 text-[12px]">
                                     <div className="logo">
                                         <Link href='/' className="flex items-center gap-2">
                                             <Image width={1000} height={500} src="/assets/images/logo.svg"
-                                                   className="h-10 w-4"
+                                                   className="h-full w-4"
                                                    alt="LogoImg"/>
                                             <span className="font-[500] text-black text-[10px]]">nosres</span>
                                         </Link>
@@ -287,10 +295,11 @@ function Footer() {
                                         <Link href='/'>Assistance Nosres</Link>
                                     </li>
                                 </ul>
-                                <p className="mt-1 text-gray-500 text-[12px]">© {currentYear} Nosres Inc. All rights
+                                <p className="mt-[14px] text-gray-500 text-[12px]">© {currentYear} Nosres Inc. All
+                                    rights
                                     reserved.</p>
                             </div>
-                            <div className="right mt-[10px]">
+                            <div className="right">
                                 <p className="cursor-pointer text-[12px] text-graycolor">United States</p>
                             </div>
                         </div>
