@@ -116,20 +116,13 @@ function NosP() {
                             </div>
                         </div>
                     </div>
-
-                    <h4 className="mt-6 text-[24px] font-semibold">
-                        The ideal objective of Canadian higher education is to offer every<br/>
-                        Canadian the opportunity to acquire the skills and knowledge necessary<br/>
-                        to realize their utmost potential.
-                    </h4>
-
                     <div
-                        className="mt-8 content z-20 inset-0 bg-gradient-to-r from-[#3C6088] to-[#E4EAF9] opacity-[79%] text-white p-12 rounded-xl">
+                        className="mt-8 content z-20 inset-0 bg-gradient-to-r from-[#C5B097] to-[#E4EAF9] opacity-[79%] text-white p-12 rounded-xl">
                         <div
-                            className="inset-0 bg-gradient-to-r from-[#6783A1] to-[#E4EAF9] opacity-[100%] py-4 px-8 rounded-xl">
+                            className="bg-[#5c59591f] py-4 px-8 rounded-xl">
                             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-2">
                                 <div className="text mt-2">
-                                    <h4 className="text-[18px]">
+                                    <h4 className="text-[24px]">
                                         Notre engagement
                                     </h4>
                                     <p className="text-[14px] mt-2">
@@ -226,11 +219,11 @@ function NosP() {
                         <div data-aos="zoom-in" data-aos-duration="1000"
                              className="card_box col image-box p-12 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                             <div
-                                className="absolute inset-0 bg-gradient-to-r from-[#8BCAE8] to-[#C5B097] opacity-[79%] z-10"></div>
+                                className="absolute inset-0 bg-gradient-to-r from-[#979797] to-[#F0F0F0] opacity-[79%] z-10"></div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="col z-20 bg-[#b9bdbf5c] p-8 text-white rounded-xl">
-                                    <h4 className="text-[18px]">Penser autrement</h4>
+                                    <h4 className="text-[24px]">Penser autrement</h4>
                                     <h4 className="text-[14px]">
                                         L’enfant doit penser de manière critique et créative est essentielle pour<br/>
                                         innover, résoudre des problèmes complexes ou simplement<br/>
