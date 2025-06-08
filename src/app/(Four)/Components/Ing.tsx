@@ -21,8 +21,8 @@ function Ing() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                                 <div className="col z-20 bg-[#b9bdbf5c] p-8 text-white rounded-xl">
-                                    <h4 className="text-[24px]">Ingéniosité</h4>
-                                    <h4 className="text-[14px]">
+                                    <h4 className="text-[24px] font-[600]">Ingéniosité</h4>
+                                    <h4 className="text-[16px] mt-3">
                                         Nous valorisons la capacité à inventer, à innover et à penser
                                         autrement. Chez Nosres laboratoire éducatif, l’ingéniosité signifie :
                                     </h4>
@@ -30,7 +30,7 @@ function Ing() {
                                         <div className="icon">
                                             <PiNumberCircleOneLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Savoir formuler des idées originales pour répondre à des besoins
                                             réels.
                                         </h4>
@@ -40,7 +40,7 @@ function Ing() {
                                         <div className="icon">
                                             <PiNumberCircleTwoLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Explorer plusieurs pistes avant de trouver la solution la plus
                                             pertinente.
                                         </h4>
@@ -50,7 +50,7 @@ function Ing() {
                                         <div className="icon">
                                             <PiNumberCircleThreeLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Concevoir des outils pédagogiques créatifs, fonctionnels et
                                             inspirants.
                                         </h4>
@@ -59,7 +59,7 @@ function Ing() {
                                         <div className="icon">
                                             <PiNumberCircleFourLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Encourager les enfants, les enseignants et les concepteurs à faire
                                             preuve d’audace, de curiosité et d’esprit critique.
                                         </h4>

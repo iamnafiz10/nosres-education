@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import albertImage from "../../../../public/assets/images/albert.png";
+import albertImage from "../../../../public/assets/images/offrir.jpg";
 
 function Offrir() {
     return (

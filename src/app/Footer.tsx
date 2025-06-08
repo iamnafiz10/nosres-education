@@ -75,7 +75,9 @@ function Footer() {
                                         <Link href='/'>Notre équipe</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Nous contacter</Link>
+                                        <Link href='mailto:nosres@email.com' className="flex items-center gap-2">
+                                            Nous contacter
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -207,7 +209,7 @@ function Footer() {
                                         <Link href='/'>Notre équipe</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Nous contacter</Link>
+                                        <Link href='mailto:nosres@email.com'>Nous contacter</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -224,15 +226,31 @@ function Footer() {
                                         <Link href='/'>Maternelle</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>
-                                            Primaire8
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Primaire
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                         </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Secondaire</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Secondaire
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Supérieur</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Supérieur
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                 </ul>
                             </details>
@@ -246,10 +264,22 @@ function Footer() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Nosres Books</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Nosres Books
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Nosres laboratoire éducatif</Link>
+                                        <Link href='/' className="flex items-center gap-1">
+                                            Nosres laboratoire éducatif
+                                            <span
+                                                className="text-[10px] cursor-auto text-primary bg-[#eeeeee] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                        </Link>
                                     </li>
                                     <li className="hover:text-primary">
                                         <Link href='/'>Link 3</Link>

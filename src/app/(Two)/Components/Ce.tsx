@@ -18,7 +18,7 @@ function Ce() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                         <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
+                                <Image src={SliderOne} className="w-full h-52 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
@@ -34,7 +34,7 @@ function Ce() {
                         </div>
                         <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
+                                <Image src={SliderOne} className="w-full h-52 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
@@ -51,7 +51,7 @@ function Ce() {
                         </div>
                         <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
+                                <Image src={SliderOne} className="w-full h-52 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">

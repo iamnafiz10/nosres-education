@@ -20,7 +20,7 @@ function Ressources() {
                                     <div className="icon">
                                         <LuDot size={28}/>
                                     </div>
-                                    <h4 className="text-[14px] text-primary underline cursor-pointer">
+                                    <h4 className="text-[16px] text-primary underline cursor-pointer">
                                         Méthodes de lecture-écriture en plusieurs niveaux
                                     </h4>
                                 </div>
@@ -29,7 +29,7 @@ function Ressources() {
                                     <div className="icon">
                                         <LuDot size={28}/>
                                     </div>
-                                    <h4 className="text-[14px] text-prgcolor">
+                                    <h4 className="text-[16px] text-prgcolor">
                                         Posters et cartes éducatives à imprimer
                                     </h4>
                                 </div>
@@ -38,7 +38,7 @@ function Ressources() {
                                     <div className="icon">
                                         <LuDot size={28}/>
                                     </div>
-                                    <h4 className="text-[14px] text-prgcolor">
+                                    <h4 className="text-[16px] text-prgcolor">
                                         Guides pour enseignants et parents
                                     </h4>
                                 </div>
@@ -47,7 +47,7 @@ function Ressources() {
                                     <div className="icon">
                                         <LuDot size={28}/>
                                     </div>
-                                    <h4 className="text-[14px] text-prgcolor">
+                                    <h4 className="text-[16px] text-prgcolor">
                                         Albums illustrés conçus par des enseignants
                                     </h4>
                                 </div>
@@ -56,7 +56,7 @@ function Ressources() {
                                     <div className="icon">
                                         <LuDot size={28}/>
                                     </div>
-                                    <h4 className="text-[14px] text-prgcolor">
+                                    <h4 className="text-[16px] text-prgcolor">
                                         Kits pédagogiques pour les classes de TPS à GS
                                     </h4>
                                 </div>

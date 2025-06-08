@@ -19,8 +19,8 @@ function Ce() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-48 rounded-md rounded-b-none"
+                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
+                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
@@ -37,8 +37,8 @@ function Ce() {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-48 rounded-md rounded-b-none"
+                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
+                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
@@ -55,8 +55,8 @@ function Ce() {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-48 rounded-md rounded-b-none"
+                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
+                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
@@ -73,8 +73,8 @@ function Ce() {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-48 rounded-md rounded-b-none"
+                            <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
+                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">

@@ -122,10 +122,10 @@ function NosP() {
                             className="bg-[#5c59591f] py-4 px-8 rounded-xl">
                             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-2">
                                 <div className="text mt-2">
-                                    <h4 className="text-[24px]">
+                                    <h4 className="text-[24px] font-[600]">
                                         Notre engagement
                                     </h4>
-                                    <p className="text-[14px] mt-2">
+                                    <p className="text-[16px] mt-2">
                                         Nous travaillons avec des enseignants, des chercheurs, des institutions, des
                                         associations et des innovateurs en éducation pour développer des projets
                                         concrets à fort impact.
@@ -221,19 +221,19 @@ function NosP() {
                             <div
                                 className="absolute inset-0 bg-gradient-to-r from-[#979797] to-[#F0F0F0] opacity-[79%] z-10"></div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div className="col z-20 bg-[#b9bdbf5c] p-8 text-white rounded-xl">
-                                    <h4 className="text-[24px]">Penser autrement</h4>
-                                    <h4 className="text-[14px]">
-                                        L’enfant doit penser de manière critique et créative est essentielle pour<br/>
-                                        innover, résoudre des problèmes complexes ou simplement<br/>
+                            <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+                                <div className="col md:col-span-7 z-20 bg-[#b9bdbf5c] p-8 text-white rounded-xl">
+                                    <h4 className="text-[24px] font-[600]">Penser autrement</h4>
+                                    <h4 className="text-[16px] mt-3">
+                                        L’enfant doit penser de manière critique et créative est essentielle pour
+                                        innover, résoudre des problèmes complexes ou simplement
                                         comprendre le monde autrement.
                                     </h4>
                                     <div className="flex items-center gap-2 mt-4">
                                         <div className="icon">
                                             <PiNumberCircleOneLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Remettre en question les évidences ou les solutions toutes faites
                                         </h4>
                                     </div>
@@ -242,7 +242,7 @@ function NosP() {
                                         <div className="icon">
                                             <PiNumberCircleTwoLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Imaginer de nouvelles approches ou perspectives
                                         </h4>
                                     </div>
@@ -251,7 +251,7 @@ function NosP() {
                                         <div className="icon">
                                             <PiNumberCircleThreeLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Être créatif, curieux et ouvert à l’inconnu
                                         </h4>
                                     </div>
@@ -259,12 +259,12 @@ function NosP() {
                                         <div className="icon">
                                             <PiNumberCircleFourLight size={40}/>
                                         </div>
-                                        <h4 className="text-[14px]">
+                                        <h4 className="text-[16px]">
                                             Oser explorer ce que d’autres n’ont pas encore envisagé
                                         </h4>
                                     </div>
                                 </div>
-                                <div className="col">
+                                <div className="col md:col-span-5">
                                     <Image src={childPlayImg} className="w-[100%] rounded-xl h-full relative z-20"
                                            alt="childPlayImg"/>
                                 </div>

@@ -2,7 +2,11 @@
 import React from 'react';
 import {IoIosArrowForward} from "react-icons/io";
 import Image from "next/image";
-import SliderOne from "../../../../public/assets/images/slider1.jpg";
+import maternelleOneImg from "../../../../public/assets/images/maternelle.jpg";
+import primaireImg from "../../../../public/assets/images/primaire.jpg";
+import secondaireImg from "../../../../public/assets/images/secondaire.jpg";
+import superieurImg from "../../../../public/assets/images/superieur.jpg";
+
 // Import Swiper React components
 import {Swiper, SwiperSlide} from 'swiper/react';
 // Import Swiper styles
@@ -58,8 +62,8 @@ function Parcours() {
                         >
                             <SwiperSlide>
                                 <div className="cursor-pointer image-box bg-white rounded-md">
-                                    <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
-                                           alt="SliderOne"/>
+                                    <Image src={maternelleOneImg} className="w-full h-52 rounded-xl rounded-b-none"
+                                           alt="maternelleOneImg"/>
                                     <div className="content px-4 py-4">
                                         <h3 className="font-semibold text-[16px]">
                                             Maternelle
@@ -86,8 +90,8 @@ function Parcours() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer image-box bg-white rounded-md">
-                                    <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
-                                           alt="SliderOne"/>
+                                    <Image src={primaireImg} className="w-full h-52 rounded-xl rounded-b-none"
+                                           alt="primaireImg"/>
                                     <div className="content px-4 py-4">
                                         <h3 className="font-semibold text-[16px]">
                                             Primaire <span className="text-gray-400">(à venir)</span>
@@ -115,8 +119,8 @@ function Parcours() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer image-box bg-white rounded-md">
-                                    <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
-                                           alt="SliderOne"/>
+                                    <Image src={secondaireImg} className="w-full h-52 rounded-xl rounded-b-none"
+                                           alt="secondaireImg"/>
                                     <div className="content px-4 py-4">
                                         <h3 className="font-semibold text-[16px]">
                                             Secondaire <span className="text-gray-400">(à venir)</span>
@@ -144,8 +148,8 @@ function Parcours() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="cursor-pointer image-box bg-white rounded-md">
-                                    <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
-                                           alt="SliderOne"/>
+                                    <Image src={superieurImg} className="w-full h-52 rounded-xl rounded-b-none"
+                                           alt="superieurImg"/>
                                     <div className="content px-4 py-4">
                                         <h3 className="font-semibold text-[16px]">
                                             Supérieur <span className="text-gray-400">(à venir)</span>
