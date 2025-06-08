@@ -34,7 +34,7 @@ function Dco() {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                        <div className="col bg-[#F4F4F4] p-8 rounded-xl">
+                        <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
                                     <LuLightbulb size={25} className="text-primary"/>
@@ -51,7 +51,7 @@ function Dco() {
                             </p>
                         </div>
 
-                        <div className="col bg-[#F4F4F4] p-8 rounded-xl">
+                        <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
                                     <LuEarth size={20} className="text-primary"/>
@@ -68,7 +68,7 @@ function Dco() {
                             </p>
                         </div>
 
-                        <div className="col bg-[#F4F4F4] p-8 rounded-xl">
+                        <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
                                     <LuBookOpenText size={20} className="text-primary"/>
@@ -85,7 +85,7 @@ function Dco() {
                             </p>
                         </div>
 
-                        <div className="col bg-[#F4F4F4] p-8 rounded-xl">
+                        <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
                                     <LuSquareActivity size={20} className="text-primary"/>
@@ -103,7 +103,7 @@ function Dco() {
                             </p>
                         </div>
 
-                        <div className="col bg-[#F4F4F4] p-8 rounded-xl">
+                        <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
                                     <LuTelescope size={20} className="text-primary"/>
@@ -121,7 +121,7 @@ function Dco() {
                             </p>
                         </div>
 
-                        <div className="col bg-[#F4F4F4] p-8 rounded-xl">
+                        <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-2">
                                 <div className="icon">
                                     <LuPuzzle size={20} className="text-primary"/>

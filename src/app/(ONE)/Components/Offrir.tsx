@@ -9,7 +9,7 @@ function Offrir() {
                 <div className="container py-16">
                     <div className="relative future-section overflow-hidden rounded-xl p-10">
                         <div className="grid grid-cols-1 md:grid-cols-12">
-                            <div className="col md:col-span-5">
+                            <div data-aos="zoom-in" className="col md:col-span-5">
                                 <Image src={albertImage} className="w-full md:w-[90%] h-full rounded-xl"
                                        alt="albertImage"/>
                             </div>

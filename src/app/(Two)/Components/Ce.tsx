@@ -16,7 +16,7 @@ function Ce() {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
                                 <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
                                        alt="SliderOne"/>
@@ -32,7 +32,7 @@ function Ce() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
                                 <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
                                        alt="SliderOne"/>
@@ -49,7 +49,7 @@ function Ce() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
                                 <Image src={SliderOne} className="w-full h-52 rounded-md rounded-b-none"
                                        alt="SliderOne"/>

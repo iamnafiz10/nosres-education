@@ -15,7 +15,7 @@ function Les() {
                         </h1>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
                                 <Image src={SliderOne} className="w-full h-32 rounded-xl"
@@ -41,7 +41,7 @@ function Les() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
                                 <Image src={SliderOne} className="w-full h-32 rounded-xl"
@@ -67,7 +67,7 @@ function Les() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
                                 <Image src={SliderOne} className="w-full h-32 rounded-xl"
@@ -93,7 +93,7 @@ function Les() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
                                 <Image src={SliderOne} className="w-full h-32 rounded-xl"
@@ -119,7 +119,7 @@ function Les() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
                                 <Image src={SliderOne} className="w-full h-32 rounded-xl"
@@ -145,7 +145,7 @@ function Les() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div
                                 className="cursor-pointer block lg:flex items-center gap-6 p-4 rounded-xl bg-[#F7F7F7]">
                                 <Image src={SliderOne} className="w-full h-32 rounded-xl"

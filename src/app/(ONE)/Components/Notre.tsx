@@ -80,12 +80,12 @@ function Notre() {
                         </div>
 
                         <div className="col lg:col-span-5">
-                            <div data-aos="zoom-in" data-aos-duration="1000"
-                                 className="card_box col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
+                            <div
+                                className="card_box col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-[#3C6088] to-[#DAE2F9] opacity-[64%] z-10"></div>
-                                <div
-                                    className="content z-20 bg-[#BCC8D9] text-white p-5 rounded-xl flex items-center gap-2">
+                                <div data-aos="zoom-in"
+                                     className="content z-20 bg-[#BCC8D9] text-white p-5 rounded-xl flex items-center gap-2">
                                     <div className="icon">
                                         <LuLightbulb size={50}/>
                                     </div>
@@ -99,8 +99,8 @@ function Notre() {
                                  className="card_box mt-4 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-[#8BCAE8] to-[#C5B097] opacity-[64%] z-10"></div>
-                                <div
-                                    className="content z-20 bg-[#D3E0E4] text-white p-6 rounded-xl flex items-center gap-2">
+                                <div data-aos="zoom-in"
+                                     className="content z-20 bg-[#D3E0E4] text-white p-6 rounded-xl flex items-center gap-2">
                                     <div className="icon">
                                         <LuPuzzle size={50}/>
                                     </div>
@@ -114,8 +114,8 @@ function Notre() {
                                  className="card_box mt-4 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-[#29A9E0] to-[#DAE2F9] opacity-[64%] z-10"></div>
-                                <div
-                                    className="content z-20 bg-[#CBE6F8] text-white p-6 rounded-xl flex items-center gap-3">
+                                <div data-aos="zoom-in"
+                                     className="content z-20 bg-[#CBE6F8] text-white p-6 rounded-xl flex items-center gap-3">
                                     <div className="icon">
                                         <LuBrain size={50}/>
                                     </div>

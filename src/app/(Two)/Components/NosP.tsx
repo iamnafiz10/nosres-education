@@ -22,7 +22,7 @@ function NosP() {
                         </h1>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div className="icon">
                                 <LuEarth size={40} className="text-gray-400"/>
                             </div>
@@ -34,7 +34,7 @@ function NosP() {
                                 d’origine, de statut ou de territoire.
                             </p>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div className="icon">
                                 <LuLightbulb size={40} className="text-gray-400"/>
                             </div>
@@ -46,7 +46,7 @@ function NosP() {
                                 pensée critique.
                             </p>
                         </div>
-                        <div className="col">
+                        <div data-aos="zoom-in" className="col">
                             <div className="icon">
                                 <LuBadgeCheck size={40} className="text-gray-400"/>
                             </div>
@@ -68,7 +68,7 @@ function NosP() {
                     <div
                         className="mt-6 content z-20 inset-0 bg-gradient-to-r from-[#3C6088] to-[#C5B097] opacity-[79%] text-white p-12 rounded-xl">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div className="col">
+                            <div data-aos="zoom-in" className="col">
                                 <div
                                     className="h-full md:h-[190px] bg-[#c4cfe026] py-4 px-8 rounded-xl">
                                     <div className="text mt-2">
@@ -91,7 +91,7 @@ function NosP() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div data-aos="zoom-in" className="col">
                                 <div
                                     className="h-full md:h-[190px] bg-[#c4cfe026] py-4 px-8 rounded-xl">
                                     <div className="text mt-2">
@@ -135,7 +135,7 @@ function NosP() {
                                         durable, plus libre.
                                     </p>
                                 </div>
-                                <div className="image flex justify-start md:justify-end">
+                                <div data-aos="zoom-in" className="image flex justify-start md:justify-end">
                                     <Image src={circleImg} className="w-[40%] h-full" alt="circleImg"/>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ function NosP() {
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div className="col">
+                            <div data-aos="zoom-in" className="col">
                                 <div
                                     className="h-full md:h-[190px] mt-6 bg-[#53537438] py-4 px-8 rounded-xl">
                                     <div className="text mt-2">
@@ -167,7 +167,7 @@ function NosP() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div data-aos="zoom-in" className="col">
                                 <div
                                     className="h-full md:h-[190px] mt-6 bg-[#53537438] py-4 px-8 rounded-xl">
                                     <div className="text mt-2">
@@ -182,7 +182,7 @@ function NosP() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div data-aos="zoom-in" className="col">
                                 <div
                                     className="h-full md:h-[190px] mt-6 bg-[#53537438] py-4 px-8 rounded-xl">
                                     <div className="text mt-2">
@@ -197,7 +197,7 @@ function NosP() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div data-aos="zoom-in" className="col">
                                 <div
                                     className="h-full md:h-[190px] mt-6 bg-[#53537438] py-4 px-8 rounded-xl">
                                     <div className="text mt-2">

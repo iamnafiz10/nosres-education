@@ -62,7 +62,7 @@ function Ressources() {
                                 </div>
                             </div>
 
-                            <div className="col mt-6 md:mt-0">
+                            <div data-aos="zoom-in" className="col mt-6 md:mt-0">
                                 <Image src={albertImage} className="w-full md:w-[90%] h-full rounded-xl"
                                        alt="albertImage"/>
                             </div>
@@ -72,7 +72,7 @@ function Ressources() {
                     <div
                         className="mt-16 relative z-20 inset-0 bg-gradient-to-r from-[#8BCAE8] to-[#E9EDF9] opacity-[79%] rounded-xl p-10">
                         <div className="grid grid-cols-1 md:grid-cols-12">
-                            <div className="col md:col-span-5">
+                            <div data-aos="zoom-in" className="col md:col-span-5">
                                 <Image src={albertImage} className="w-full md:w-[90%] h-full rounded-xl"
                                        alt="albertImage"/>
                             </div>

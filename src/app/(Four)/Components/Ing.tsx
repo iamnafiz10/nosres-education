@@ -1,4 +1,3 @@
-"use client";
 import React from 'react';
 import {
     PiNumberCircleFourLight,
@@ -8,22 +7,14 @@ import {
 } from "react-icons/pi";
 import Image from "next/image";
 import childPlayImg from "../../../../public/assets/images/child-play.jpg";
-import AOS from 'aos';
-import {useEffect} from 'react';
 
 function Ing() {
-    useEffect(() => {
-        AOS.init({
-            duration: 800,
-            once: true,
-        });
-    }, []);
     return (
         <>
             <section id="ing-section">
                 <div className="container pt-16">
                     <div className="wrap">
-                        <div data-aos="zoom-in" data-aos-duration="1000"
+                        <div
                              className="card_box col image-box p-12 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                             <div
                                 className="absolute inset-0 bg-gradient-to-r from-[#8BCAE8] to-[#C5B097] opacity-[79%] z-10"></div>
