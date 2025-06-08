@@ -1,5 +1,5 @@
 import React from 'react';
-import {LuBookOpenText, LuEarth, LuLightbulb, LuPuzzle, LuTelescope} from "react-icons/lu";
+import {LuBookOpenText, LuEarth, LuLightbulb, LuPuzzle, LuSquareActivity, LuTelescope} from "react-icons/lu";
 
 function Dco() {
     return (
@@ -39,7 +39,7 @@ function Dco() {
                                 <div className="icon">
                                     <LuLightbulb size={25} className="text-primary"/>
                                 </div>
-                                <h4 className="text-[16px] text-black">
+                                <h4 className="text-[16px] text-black font-[600]">
                                     Imagination et créativité
                                 </h4>
                             </div>
@@ -56,7 +56,7 @@ function Dco() {
                                 <div className="icon">
                                     <LuEarth size={20} className="text-primary"/>
                                 </div>
-                                <h4 className="text-[16px] text-black">
+                                <h4 className="text-[16px] text-black font-[600]">
                                     Langage et communication
                                 </h4>
                             </div>
@@ -73,7 +73,7 @@ function Dco() {
                                 <div className="icon">
                                     <LuBookOpenText size={20} className="text-primary"/>
                                 </div>
-                                <h4 className="text-[16px] text-black">
+                                <h4 className="text-[16px] text-black font-[600]">
                                     Méthode de lecture et d’écriture
                                 </h4>
                             </div>
@@ -88,9 +88,9 @@ function Dco() {
                         <div className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
-                                    <LuTelescope size={20} className="text-primary"/>
+                                    <LuSquareActivity size={20} className="text-primary"/>
                                 </div>
-                                <h4 className="text-[16px] text-black">
+                                <h4 className="text-[16px] text-black font-[600]">
                                     Motricité fine et globale
                                 </h4>
                             </div>
@@ -108,7 +108,7 @@ function Dco() {
                                 <div className="icon">
                                     <LuTelescope size={20} className="text-primary"/>
                                 </div>
-                                <h4 className="text-[16px] text-black">
+                                <h4 className="text-[16px] text-black font-[600]">
                                     Observation et découverte
                                 </h4>
                             </div>
@@ -126,7 +126,7 @@ function Dco() {
                                 <div className="icon">
                                     <LuPuzzle size={20} className="text-primary"/>
                                 </div>
-                                <h4 className="text-[16px] text-black">
+                                <h4 className="text-[16px] text-black font-[600]">
                                     Résolution de problèmes<br/>
                                     & pensée critique
                                 </h4>
