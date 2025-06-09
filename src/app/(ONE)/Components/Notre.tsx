@@ -24,10 +24,7 @@ function Notre() {
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-10">
                         <div className="col lg:col-span-7">
-                            <div data-aos="zoom-in" data-aos-duration="1000"
-                                 className="card_box col image-box py-10 px-8 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
-                                <div
-                                    className="absolute inset-0 bg-gradient-to-r from-[#3C6088] to-[#999999] opacity-[79%] z-10"></div>
+                            <div className="card_box bg-gradient-to-r from-[#3C6088] to-[#999999] opacity-[79%] z-10 col image-box py-10 px-8 flex flex-col justify-center rounded-xl relative overflow-hidden">
                                 <div
                                     className="content z-20 bg-[#b9bdbf5c] p-4 text-white rounded-xl flex items-center gap-2">
                                     <div className="icon">
@@ -81,11 +78,9 @@ function Notre() {
 
                         <div className="col lg:col-span-5">
                             <div
-                                className="card_box col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
-                                <div
-                                    className="absolute inset-0 bg-gradient-to-r from-[#3C6088] to-[#DAE2F9] opacity-[64%] z-10"></div>
+                                className="card_box bg-gradient-to-r from-[#3C6088] to-[#DAE2F9] opacity-[64%] z-10 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden">
                                 <div data-aos="zoom-in"
-                                     className="content z-20 bg-[#BCC8D9] text-white p-5 rounded-xl flex items-center gap-2">
+                                     className="content z-20 bg-[#bcc8d940] text-white p-5 rounded-xl flex items-center gap-2">
                                     <div className="icon">
                                         <LuLightbulb size={50}/>
                                     </div>
@@ -96,11 +91,9 @@ function Notre() {
                             </div>
 
                             <div data-aos="zoom-in" data-aos-duration="1000"
-                                 className="card_box mt-4 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
-                                <div
-                                    className="absolute inset-0 bg-gradient-to-r from-[#8BCAE8] to-[#C5B097] opacity-[64%] z-10"></div>
+                                 className="card_box bg-gradient-to-r from-[#8BCAE8] to-[#C5B097] opacity-[64%] z-10 mt-4 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                                 <div data-aos="zoom-in"
-                                     className="content z-20 bg-[#D3E0E4] text-white p-6 rounded-xl flex items-center gap-2">
+                                     className="content z-20 bg-[#d3e0e454] text-white p-6 rounded-xl flex items-center gap-2">
                                     <div className="icon">
                                         <LuPuzzle size={50}/>
                                     </div>
@@ -111,11 +104,9 @@ function Notre() {
                             </div>
 
                             <div data-aos="zoom-in" data-aos-duration="1000"
-                                 className="card_box mt-4 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
-                                <div
-                                    className="absolute inset-0 bg-gradient-to-r from-[#29A9E0] to-[#DAE2F9] opacity-[64%] z-10"></div>
+                                 className="card_box bg-gradient-to-r from-[#29A9E0] to-[#DAE2F9] opacity-[64%] z-10 mt-4 col image-box p-6 flex flex-col justify-center rounded-xl relative overflow-hidden aos-init aos-animate">
                                 <div data-aos="zoom-in"
-                                     className="content z-20 bg-[#CBE6F8] text-white p-6 rounded-xl flex items-center gap-3">
+                                     className="content z-20 bg-[#cbe6f84f] text-white p-6 rounded-xl flex items-center gap-3">
                                     <div className="icon">
                                         <LuBrain size={50}/>
                                     </div>

@@ -113,6 +113,8 @@ body {
 .rounded-lg .border-b {
     align-items: center !important;
     border-color: #e5e7eb !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .rounded-lg button {

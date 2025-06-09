@@ -88,7 +88,7 @@ function Equipe() {
                                         </div>
                                     </div>
                                 </ModalHeader>
-                                <ModalBody className="bg-white text-graycolor text-[14px] rounded-b overflow-hidden">
+                                <ModalBody className="bg-white text-graycolor text-[14px] rounded-b-xl overflow-hidden">
                                     <div className="box space-y-6">
                                         <p>
                                             Jane Doe a captivating wordsmith, renowned for her extraordinary torytelling

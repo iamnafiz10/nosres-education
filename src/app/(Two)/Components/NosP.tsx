@@ -26,7 +26,7 @@ function NosP() {
                             <div className="icon">
                                 <LuEarth size={40} className="text-gray-400"/>
                             </div>
-                            <h4 className="text-[16px] mt-2 text-black">
+                            <h4 className="text-[16px] mt-2 text-black font-[600]">
                                 Accessibilité
                             </h4>
                             <p className="text-[14px] text-prgcolor">
@@ -38,7 +38,7 @@ function NosP() {
                             <div className="icon">
                                 <LuLightbulb size={40} className="text-gray-400"/>
                             </div>
-                            <h4 className="text-[16px] mt-2 text-black">
+                            <h4 className="text-[16px] mt-2 text-black font-[600]">
                                 Créativité
                             </h4>
                             <p className="text-[14px] text-prgcolor">
@@ -50,7 +50,7 @@ function NosP() {
                             <div className="icon">
                                 <LuBadgeCheck size={40} className="text-gray-400"/>
                             </div>
-                            <h4 className="text-[16px] mt-2 text-black">
+                            <h4 className="text-[16px] mt-2 text-black font-[600]">
                                 Qualité
                             </h4>
                             <p className="text-[14px] text-prgcolor">

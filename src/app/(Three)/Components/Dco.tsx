@@ -1,5 +1,5 @@
 import React from 'react';
-import {LuBookOpenText, LuEarth, LuLightbulb, LuPuzzle, LuSquareActivity, LuTelescope} from "react-icons/lu";
+import {LuBookOpenText, LuGlobe, LuLightbulb, LuPuzzle, LuSquareActivity, LuTelescope} from "react-icons/lu";
 
 function Dco() {
     return (
@@ -54,7 +54,7 @@ function Dco() {
                         <div data-aos="zoom-in" className="col bg-[#F4F4F4] p-8 rounded-xl">
                             <div className="flex items-center justify-center gap-1">
                                 <div className="icon">
-                                    <LuEarth size={20} className="text-primary"/>
+                                    <LuGlobe size={20} className="text-primary"/>
                                 </div>
                                 <h4 className="text-[16px] text-black font-[600]">
                                     Langage et communication

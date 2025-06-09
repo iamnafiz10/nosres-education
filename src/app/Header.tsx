@@ -158,8 +158,12 @@ function Header() {
                                                            className="w-8"
                                                            alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="text-[#252C32] font-[500] text-[14px] flex items-center gap-1">
                                                             Nosres Books
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Découvrir comment Nosres Books enrichit
@@ -176,8 +180,12 @@ function Header() {
                                                            className="w-8"
                                                            alt="icon"/>
                                                     <div className="text">
-                                                        <h2 className="text-[#252C32] font-[500] text-[14px]">
+                                                        <h2 className="text-[#252C32] font-[500] text-[14px] flex items-center gap-1">
                                                             Nosres laboratoire créatif
+                                                            <span
+                                                                className="text-[10px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
                                                         </h2>
                                                         <p className="mt-1 text-xs text-[#828D9E]">
                                                             Explorer comment Nosres laboratoire éducatif
@@ -309,11 +317,23 @@ function Header() {
                             </summary>
                             <ul className="mt-4 space-y-4">
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Nosres Books</Link>
+                                    <Link href='/' className="flex items-center gap-1">
+                                        Nosres Books
+                                        <span
+                                            className="text-[8px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">
-                                    <Link href='/public'>Nosres laboratoire créatif</Link>
+                                    <Link href='/' className="flex items-center gap-1">
+                                        Nosres laboratoire créatif
+                                        <span
+                                            className="text-[8px] text-primary bg-[#F3F4F4] px-2 py-1 rounded-full">
+                                                                COMING SOON
+                                                            </span>
+                                    </Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b border-bordercolor bordercolor">

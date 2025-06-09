@@ -175,7 +175,7 @@ function Les() {
 
                     <div className="flex items-center justify-center mt-10">
                         <button
-                            className="cursor-pointer flex items-center justify-center bg-primary border border-primary text-[14px] hover:bg-white hover:border-primary hover:text-primary rounded text-white py-3 px-4">
+                            className="cursor-pointer flex items-center justify-center bg-transparent border border-primary text-primary text-[14px] hover:bg-primary hover:border-primary hover:text-white rounded py-3 px-4">
                             Voir plus
                         </button>
                     </div>
