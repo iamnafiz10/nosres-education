@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from "next/image";
-import SliderOne from "../../../../public/assets/images/child.jpg";
+import SliderOne from "../../../../public/assets/images/fo1.jpg";
+import SliderTwo from "../../../../public/assets/images/fo2.jpg";
+import SliderThree from "../../../../public/assets/images/fo3.jpg";
+import SliderFour from "../../../../public/assets/images/fo4.jpg";
 
 function Ce() {
     return (
@@ -38,8 +41,8 @@ function Ce() {
                         </div>
                         <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
-                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
-                                       alt="SliderOne"/>
+                                <Image src={SliderTwo} className="w-full h-48 rounded-xl rounded-b-none"
+                                       alt="SliderTwo"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
                                         Recherche appliquée
@@ -56,8 +59,8 @@ function Ce() {
                         </div>
                         <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
-                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
-                                       alt="SliderOne"/>
+                                <Image src={SliderThree} className="w-full h-48 rounded-xl rounded-b-none"
+                                       alt="SliderThree"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
                                         Co-création
@@ -74,8 +77,8 @@ function Ce() {
                         </div>
                         <div data-aos="zoom-in" className="col">
                             <div className="h-full xl:h-[380px] cursor-pointer image-box bg-white rounded-xl">
-                                <Image src={SliderOne} className="w-full h-48 rounded-xl rounded-b-none"
-                                       alt="SliderOne"/>
+                                <Image src={SliderFour} className="w-full h-48 rounded-xl rounded-b-none"
+                                       alt="SliderFour"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
                                         Accessibilité et inclusion

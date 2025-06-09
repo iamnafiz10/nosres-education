@@ -61,7 +61,7 @@ function Parcours() {
                             }}
                         >
                             <SwiperSlide>
-                                <div className="cursor-pointer image-box bg-white rounded-md">
+                                <div className="cursor-pointer image-box bg-white rounded-xl">
                                     <Image src={maternelleOneImg} className="w-full h-52 rounded-xl rounded-b-none"
                                            alt="maternelleOneImg"/>
                                     <div className="content px-4 py-4">
@@ -89,7 +89,7 @@ function Parcours() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="cursor-pointer image-box bg-white rounded-md">
+                                <div className="cursor-pointer image-box bg-white rounded-xl">
                                     <Image src={primaireImg} className="w-full h-52 rounded-xl rounded-b-none"
                                            alt="primaireImg"/>
                                     <div className="content px-4 py-4">
@@ -118,7 +118,7 @@ function Parcours() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="cursor-pointer image-box bg-white rounded-md">
+                                <div className="cursor-pointer image-box bg-white rounded-xl">
                                     <Image src={secondaireImg} className="w-full h-52 rounded-xl rounded-b-none"
                                            alt="secondaireImg"/>
                                     <div className="content px-4 py-4">
@@ -147,7 +147,7 @@ function Parcours() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="cursor-pointer image-box bg-white rounded-md">
+                                <div className="cursor-pointer image-box bg-white rounded-xl">
                                     <Image src={superieurImg} className="w-full h-52 rounded-xl rounded-b-none"
                                            alt="superieurImg"/>
                                     <div className="content px-4 py-4">

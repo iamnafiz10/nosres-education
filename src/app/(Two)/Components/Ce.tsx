@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from "next/image";
-import SliderOne from "../../../../public/assets/images/child.jpg";
+import SliderOne from "../../../../public/assets/images/card-1.jpg";
+import SliderTwo from "../../../../public/assets/images/card-2.jpg";
+import SliderThree from "../../../../public/assets/images/card-3.jpg";
 
 function Ce() {
     return (
@@ -17,7 +19,7 @@ function Ce() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
+                            <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-xl">
                                 <Image src={SliderOne} className="w-full h-52 rounded-xl rounded-b-none"
                                        alt="SliderOne"/>
                                 <div className="content px-4 py-4">
@@ -33,9 +35,9 @@ function Ce() {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-52 rounded-xl rounded-b-none"
-                                       alt="SliderOne"/>
+                            <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-xl">
+                                <Image src={SliderTwo} className="w-full h-52 rounded-xl rounded-b-none"
+                                       alt="SliderTwo"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
                                         Programmes pour tous
@@ -50,9 +52,9 @@ function Ce() {
                             </div>
                         </div>
                         <div data-aos="zoom-in" className="col">
-                            <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-md">
-                                <Image src={SliderOne} className="w-full h-52 rounded-xl rounded-b-none"
-                                       alt="SliderOne"/>
+                            <div className="h-full xl:h-[360px] cursor-pointer image-box bg-white rounded-xl">
+                                <Image src={SliderThree} className="w-full h-52 rounded-xl rounded-b-none"
+                                       alt="SliderThree"/>
                                 <div className="content px-4 py-4">
                                     <h3 className="font-semibold text-[16px]">
                                         Projets de recherche et collaborations

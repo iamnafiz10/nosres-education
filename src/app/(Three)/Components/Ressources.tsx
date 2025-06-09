@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import albertImage from "../../../../public/assets/images/albert.png";
+import albertImage from "../../../../public/assets/images/ressources.jpg";
+import albertImageTwo from "../../../../public/assets/images/ressources-two.jpg";
 import {LuDot} from "react-icons/lu";
 
 function Ressources() {
@@ -73,8 +74,8 @@ function Ressources() {
                         className="mt-16 relative z-20 inset-0 bg-gradient-to-r from-[#8BCAE8] to-[#E9EDF9] opacity-[79%] rounded-xl p-10">
                         <div className="grid grid-cols-1 md:grid-cols-12">
                             <div data-aos="zoom-in" className="col md:col-span-5">
-                                <Image src={albertImage} className="w-full md:w-[90%] h-full rounded-xl"
-                                       alt="albertImage"/>
+                                <Image src={albertImageTwo} className="w-full md:w-[90%] h-full rounded-xl"
+                                       alt="albertImageTwo"/>
                             </div>
                             <div
                                 className="col md:col-span-7">

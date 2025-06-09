@@ -6,7 +6,7 @@ import {
     PiNumberCircleTwoLight
 } from "react-icons/pi";
 import Image from "next/image";
-import childPlayImg from "../../../../public/assets/images/child-play.jpg";
+import childPlayImg from "../../../../public/assets/images/ing.jpg";
 
 function Ing() {
     return (

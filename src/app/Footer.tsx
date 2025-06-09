@@ -39,16 +39,6 @@ function Footer() {
                                     Un email par mois pour suivre nos projets, découvrir
                                     nos ressources et rejoindre la communauté Nosres.
                                 </p>
-                                <div className="social-icons mt-6 flex items-center gap-3">
-                                    <FaFacebookF size={15}
-                                                 className="text-[#525252] hover:text-primary transition cursor-pointer"/>
-                                    <IoLogoInstagram size={15}
-                                                     className="text-[#525252] hover:text-primary transition cursor-pointer"/>
-                                    <FaLinkedin size={15}
-                                                className="text-[#525252] hover:text-primary transition cursor-pointer"/>
-                                    <FaXTwitter size={15}
-                                                className="text-[#525252] hover:text-primary transition cursor-pointer"/>
-                                </div>
 
                                 <div
                                     className="mt-6 flex cursor-pointer items-center gap-0 justify-start hover:text-[#3A5F8A]">
@@ -61,6 +51,16 @@ function Footer() {
                                     </button>
                                 </div>
 
+                                <div className="social-icons mt-6 flex items-center gap-3">
+                                    <FaFacebookF size={15}
+                                                 className="text-[#525252] hover:text-primary transition cursor-pointer"/>
+                                    <IoLogoInstagram size={15}
+                                                     className="text-[#525252] hover:text-primary transition cursor-pointer"/>
+                                    <FaLinkedin size={15}
+                                                className="text-[#525252] hover:text-primary transition cursor-pointer"/>
+                                    <FaXTwitter size={15}
+                                                className="text-[#525252] hover:text-primary transition cursor-pointer"/>
+                                </div>
                             </div>
 
                             <div className="col mt-3">
